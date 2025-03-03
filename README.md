@@ -1,12 +1,13 @@
-Prerequisites
+## Prerequisites
 
 Ensure you have the following installed:
 
-PHP: 8.0.2 or higher (Recommended version: 8.0.2+ for Laravel 8.x)
-MySQL: 5.7 or higher (Recommended version: 5.7+ for compatibility with Laravel)
-Composer: 2.x (for managing PHP dependencies)
-Node.js: Required for frontend assets (if applicable)
-Install PHP
+**PHP**: 8.0.2 or higher (Recommended version: 8.0.2+ for Laravel 8.x)
+**MySQL**: 5.7 or higher (Recommended version: 5.7+ for compatibility with Laravel)
+**Composer**: 2.x (for managing PHP dependencies)
+**Node.js**: Required for frontend assets (if applicable)
+
+## Install PHP
 
 To install PHP, you can either download it directly from the official PHP website or use a package manager like Homebrew on macOS.
 
