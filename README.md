@@ -71,27 +71,44 @@ Make sure you have the following installed:
    git clone https://github.com/your-username/your-laravel-blog.git
    cd your-laravel-blog
    
-Set Up Configuration
+# Set Up Configuration
 
 Duplicate .env.example and rename it to .env:
-cp .env.example .env
+
+cd .env.example .env
+
 Configure Database
+
 Open .env and update the database credentials:
+
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=your_database_name
+
 DB_USERNAME=root
+
 DB_PASSWORD=your_password
-Generate Application Key
+
+# Generate Application Key
+
 php artisan key:generate
-Import the Database Dump
+
+# Import the Database Dump
+
 Import the provided SQL dump into MySQL:
 
 mysql -u root -p your_database_name < path/to/cool_tech_dump.sql
-Run the Application
+
+# Run the Application
+
 Start the development server:
 
 php artisan serve
+
 Access the Website
+
 Open your browser and navigate to the URL (usually http://localhost:8000) to see the site in action.
