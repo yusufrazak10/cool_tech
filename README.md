@@ -1,34 +1,39 @@
+
 ## Prerequisites
 
 Ensure you have the following installed:
 
-**PHP**: 8.0.2 or higher (Recommended version: 8.0.2+ for Laravel 8.x)
-**MySQL**: 5.7 or higher (Recommended version: 5.7+ for compatibility with Laravel)
-**Composer**: 2.x (for managing PHP dependencies)
-**Node.js**: Required for frontend assets (if applicable)
+- **PHP**: 8.0.2 or higher (Recommended version: 8.0.2+ for Laravel 8.x)
+- **MySQL**: 5.7 or higher (Recommended version: 5.7+ for compatibility with Laravel)
+- **Composer**: 2.x (for managing PHP dependencies)
+- **Node.js**: Required for frontend assets (if applicable)
 
-## Install PHP
+### Install PHP
 
 To install PHP, you can either download it directly from the official PHP website or use a package manager like Homebrew on macOS.
 
-Download PHP: PHP Downloads
-Install PHP via Homebrew:
+- **Download PHP**: [PHP Downloads](https://www.php.net/downloads)
+  
+To install PHP via Homebrew:
+
+```bash
 brew install php
 Install MySQL
-
 MySQL is the database management system required for this Laravel application. You can either download it from the official website or install it using Homebrew on macOS.
 
 Download MySQL: MySQL Downloads
-Install MySQL via Homebrew:
+To install MySQL via Homebrew:
+
 brew install mysql
-Start MySQL Service: After installation, you need to start the MySQL service:
+Start MySQL Service:
+
 brew services start mysql
 Install Composer
-
 Composer is a dependency manager for PHP. It is required to install the Laravel dependencies.
 
 Download Composer: Composer Downloads
-Install Composer via Homebrew:
+To install Composer via Homebrew:
+
 brew install composer
 Clone the Repository
 
