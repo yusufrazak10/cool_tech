@@ -70,7 +70,9 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/your-username/your-laravel-blog.git
    cd your-laravel-blog
+   
 Set Up Configuration
+
 Duplicate .env.example and rename it to .env:
 cp .env.example .env
 Configure Database
